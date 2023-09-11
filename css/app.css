@@ -83,10 +83,10 @@ a{
   padding-top: 30px;
 }
 
-i{
+.fa-arrow-down{
   padding-top: 50px;
   font-size: 50px;
-}
+} 
 
 .img-hero{
   width: 100%;
@@ -104,7 +104,6 @@ i{
   padding-left: 400px;
   padding-right: 400px;
   padding-top: 70px;
- 
 }
 
 .title-main{
@@ -114,6 +113,40 @@ i{
 .checkbox{
   padding-right: 40px;
 }
-.col-4{
+
+.row-main{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 35px;
+}
+
+.col-4-main{
   flex-basis: calc((100% / 12)*4);
+  border: 1px solid black;
+}
+
+.category-col{
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.title-col{
+  padding-top: 30px;
+}
+
+.month{
+  line-height: 20px;
+  color: rgba(53, 52, 52, 0.755);
+  padding-bottom: 50px;
+}
+
+.padding-col{
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 40px;
+}
+
+.share{
+  line-height: 20px;
 }
