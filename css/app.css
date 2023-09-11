@@ -90,7 +90,7 @@ body{
   font-size: 50px;
 } 
 
-.img-hero{
+.img-col{
   width: 100%;
 }
 
@@ -131,6 +131,7 @@ body{
 .card{
   border: 1px solid black;
   padding-bottom: 200px;
+  height: 100%;
 }
 
 .category-col{
@@ -166,6 +167,10 @@ body{
   line-height: 40px;
 }
 
+.line-height-25px{
+  line-height: 25px;
+}
+
 .prova-gratis{
   padding-left: 30px;
   padding-right: 30px;
@@ -186,4 +191,32 @@ ul{
   list-style: none;
   line-height: 30px;
   margin-left: 10px;
+}
+
+/* col team  */
+
+.section-main{
+  width: 100%;
+}
+
+.container-card-section{
+  padding-top: 70px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.col-12{
+  flex-basis: 100%;
+  border: 1px solid black;
+}
+
+.details{
+ padding: 15px;
+ margin-left: 10px;
+}
+
+.card-section{
+  border: 1px solid black;
+  padding-bottom: 80x;
+  height: 100%;
 }
