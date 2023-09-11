@@ -9,6 +9,10 @@ html{
 }
 
 .nav-container{
-  min-height: 100px;
+  min-height: 70px;
   border: 1px solid black;
+}
+
+.row{
+  display: flex;
 }
