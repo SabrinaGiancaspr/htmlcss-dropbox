@@ -9,11 +9,7 @@ body{
   color: black;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-  vertical-align: super;
-}
+
 
 .row-space-between{
   display: flex;
@@ -28,6 +24,9 @@ a{
 
 .link{
   padding-right: 30px;
+  text-decoration: none;
+  color: black;
+  vertical-align: super;
 }
 
 .button{
@@ -73,6 +72,7 @@ a{
   width: 210px;
   font-size: 14px;
   text-align: center;
+  text-decoration: none;
 }
 
 .hero-text{
@@ -123,6 +123,7 @@ a{
 .col-4-main{
   flex-basis: calc((100% / 12)*4);
   border: 1px solid black;
+  
 }
 
 .category-col{
@@ -155,4 +156,6 @@ a{
 .prova-gratis{
   padding-left: 30px;
   padding-right: 30px;
+  line-height: 80px;
 }
+
