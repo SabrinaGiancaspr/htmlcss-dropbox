@@ -9,13 +9,15 @@ body{
   color: black;
 }
 
-
-
-.row-space-between{
+.row{
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
   flex-wrap: wrap;
+  padding: 20px;
+}
+
+.space-between{
+  justify-content: space-between;
+  
 }
 
 .logo-small{
@@ -45,9 +47,9 @@ body{
 }
 
 .container-hero{
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+ padding-top: 30px;
 }
 
 .title-hero{
@@ -114,16 +116,22 @@ body{
   padding-right: 40px;
 }
 
-.row-main{
-  display: flex;
-  flex-wrap: wrap;
+.main{
   padding-top: 35px;
+  gap: 10px;
 }
 
-.col-4-main{
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4{
   flex-basis: calc((100% / 12)*4);
+}
+
+.border-col{
   border: 1px solid black;
-  
 }
 
 .category-col{
