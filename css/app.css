@@ -98,3 +98,22 @@ i{
 
 /* main  */
 
+.container-main{
+  min-height: 600px;
+  border: 1px solid black;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 70px;
+ 
+}
+
+.title-main{
+  padding-bottom: 50px;
+}
+
+.checkbox{
+  padding-right: 40px;
+}
+.col-4{
+  flex-basis: calc((100% / 12)*4);
+}
