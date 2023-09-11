@@ -14,10 +14,6 @@ a{
   color: black;
   vertical-align: super;
 }
-.nav-container{
-  min-height: 70px;
-  border: 1px solid black;
-}
 
 .row-space-between{
   display: flex;
@@ -33,9 +29,7 @@ a{
 .link{
   padding-right: 20px;
 }
-.col{
-  border: 1px solid black;
-}
+
 
 .hero-content{
   border: 1px solid black;
