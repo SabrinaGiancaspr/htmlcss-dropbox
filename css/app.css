@@ -20,6 +20,7 @@ body{
   --yellow: #FFD830;
   --gray: #F5F5F5;
 }
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +42,7 @@ body{
   padding-right: 15px;
 }
 
-.container-big{
+.container-nav{
   padding: 20px;
 }
 
@@ -67,7 +68,7 @@ body{
   background-color: var(--light-blue);
 }
 
-.container-hero{
+.container-big{
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 30px;
@@ -287,6 +288,9 @@ ul{
 .debug{
   border: 1px solid black;
 }
+.square-section{
+  width: 100%;
+}
 
 .col-2{
   flex-basis: calc((100% / 12) * 2);
@@ -327,4 +331,13 @@ ul{
 
 .bg-yellow{
   background-color: var(--yellow);
+}
+
+.title-section-light-blue{
+  margin-left: 200px;
+}
+
+.button-big{
+  width: 200px;
+  cursor: pointer;
 }
