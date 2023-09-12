@@ -16,102 +16,106 @@
 </head>
 <body>
   <header>
-    <nav class="nav-content">
+    <nav class="nav-page">
       <div class="nav-container">
         <div class="row space-between">
           <div class="col">
             <img  class="logo-small" src="./img/logo-small.png" alt=""> 
-            <a class="link" href="#">Perche Dropbox</a>
-            <a class="link" href="#"> Funzioni</a>
-            <a class="link" href="#">Piani e Prezzi</a> 
-          </div>
+            <a class="nav-items" href="#">Perche Dropbox</a>
+            <a class="nav-items" href="#"> Funzioni</a>
+            <a class="nav-items" href="#">Piani e Prezzi</a> 
+          </div col>
 <!-- space between -->
           <div class="col">
-            <a class="link" href="#">Supporto</a>
-            <a class="link" href="#">Contatta l'ufficio vendite</a>
-            <a class="link" href="#">Accedi</a>
-            <a class="link button" href="#">Inizia</a>
-          </div>
-        </div>
-      </div>
+            <a class="nav-items" href="#">Supporto</a>
+            <a class="nav-items" href="#">Contatta l'ufficio vendite</a>
+            <a class="nav-items" href="#">Accedi</a>
+            <a class="nav-items button" href="#">Inizia</a>
+          </div col>
+        </div row-space-between>
+      </div nav-container>
     </nav>
 <!-- hero  -->
-    <div class="hero-content">
+    <div class="hero">
       <div class="container-hero">
         <div>
           <h1 class="title-hero">Tutto ciò che ti serve per il 
           lavoro, in un unico posto</h1>
         </div>
         <div class="row">
-          <div class="col-4">
-            <p class="hero-text">Finalmente tutti i tuoi strumenti, contenuti e 
+          <div class="col-4 gap">
+            <p>Finalmente tutti i tuoi strumenti, contenuti e 
             collaboratori sono accessibili dallo stesso posto.
             Dropbox Business è più sicuro di uno spazio di 
             archiviazione sicuro: è un modo intelligente e 
             integrato per ottimizzare il flusso di lavoro
             esistente.</p>
             <a class="button-big" href="#">Inizia la tua prova gratuita</a>
-            <div class="annulla">Annulla in qualsiasi momento</div>
+            <p>Annulla in qualsiasi momento</p>
             <div class="icon">
               <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
-            </div>
-          </div>
-          <div class="col-8">
+            </div icon>
+          </div col 4>
+          <div class="col-8 hero-img">
             <img class="img-col" src="./img/jumbo.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
+          </div col-8>
+        </div row>
+      </div container-hero>
+    </div hero>
   </header>
 
 <!-- prima card  -->
-  <main class="content-main">
-    <div class="container-main">
-      <div class="title-main">
-        <h2>Trova il piano business che fa per te</h2>
-      </div>
-      <div>
-        <input type="radio"><span class="checkbox">Fatturazione mensile</span>
-        <input type="radio"><span>Fatturazione annuale</span>
-      </div>
-      <div class="row main">
-        <div class="col-4">
-          <div class="card">
-            <div class="category-col">
-              <i class="fa-solid fa-user" style="color: #000000;"></i>
-              Singolo
+    <main class="content-main">
+      <div class="container-middle">
+        <div class="row">
+          <div class="col-12">
+            <div class="title-main">
+              <h2>Trova il piano business che fa per te</h2>
             </div>
-              <div class="padding-col line-height-40px">
-                <h3 class="title-col">Professional</h3>
-                <div class="price">&euro;12.00</div>
-                <div class="month">/mese</div>
+            <div>
+              <input type="radio"><span class="checkbox">Fatturazione mensile</span>
+              <input type="radio"><span>Fatturazione annuale</span>
+            </div>
+          </div col 12>
+        </div row>
+        
+        <div class="row main">
+          <div class="col-4">
+            <div class="card">
+              <div class="category-col">
+                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                Singolo
               </div>
-              <div class="padding-col line-height-25px">
-                <div><i class="fa-solid fa-user" style="color: #000000;"></i> 1 utente</div>
-                <div><i class="fa-solid fa-folder" style="color: #000000;"></i> 5 TB di spazio di archiviazione sicuro</div>
-                <div class="share line-height-40px"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
-              </div>
-                <div class="padding-col">
-                  <a class="button-big prova-gratis line-height-40px " href="#">Prova gratis per 30 giorni</a>
-                    <div class="acquista-ora line-height-80px">oppure <a href="#">acquista ora</a></div>
-                    <hr class="line">
-                     <ul>
-                      <h3 class="subtitle-col">Punti Salienti del piano</h3>
-                      <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Invia file fino a 100GB con Dropbox Transfert</li>
-                      <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Cartelle offline su dispositivi mobili</li>
-                     </ul>
-                    </div>
+                <div class="padding-col line-height-40px">
+                  <h3 class="title-col">Professional</h3>
+                  <div class="price">&euro;12.00</div>
+                  <div class="month">/mese</div>
                 </div>
-          
-        </div>
+                <div class="padding-col line-height-25px">
+                  <div><i class="fa-solid fa-user" style="color: #000000;"></i> 1 utente</div>
+                  <div><i class="fa-solid fa-folder" style="color: #000000;"></i> 5 TB di spazio di archiviazione sicuro</div>
+                  <div class="share line-height-40px"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
+                </div>
+                  <div class="padding-col">
+                    <a class="button-big prova-gratis line-height-40px " href="#">Prova gratis per 30 giorni</a>
+                      <div class="acquista-ora line-height-80px">oppure <a href="#">acquista ora</a></div>
+                      <hr class="line">
+                        <ul>
+                          <h3 class="subtitle-col">Punti Salienti del piano</h3>
+                          <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Invia file fino a 100GB con Dropbox Transfert</li>
+                         <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                  </div padding-col>
+              </div card>
+        </div row-main>
 
 <!-- seconda card  -->
         <div class="col-4">
           <div class="card">
-          <div class="category-col">
-            <i class="fa-solid fa-people-group" style="color: #000000;"></i>
-            Team
-          </div>
+            <div class="category-col">
+              <i class="fa-solid fa-people-group" style="color: #000000;"></i>
+              Team
+            </div>
             <div class="padding-col line-height-40px">
               <h3 class="title-col">Advanced</h3>
               <div class="price">&euro;18.00</div>
@@ -134,12 +138,11 @@
                 <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Possibilità di inserire nuovi membri del team</li>
                 <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Gestione dei permessi in base ai ruoli</li>
               </ul>
-            </div>
-<!-- problema seconda card più lunga delle altre  -->
-          </div>
-        </div>
+            </div padding-col>
 
-  <!-- terza card  -->
+          </div card>
+        </div col-4>
+<!-- terza card  -->
         <div class="col-4">
           <div class="card">
             <div class="category-col">
@@ -166,12 +169,17 @@
                 <li><i class="fa-solid fa-check" style="color: #0061FF;"></i>Cartelle offline su dispositivi mobili</li>
               </ul>
             </div>
-          </div>
-        </div>
+          </div card>
+        </div col-4>
+      </div container-middle>
+
+        
+
+  
         
 <!-- col team  -->
     <section class="section-main">
-      <div class="container-card-section">
+      <div class="container-middle">
         <div class="row">
           <div class="col-12">
             <div class="card-section">
@@ -179,23 +187,33 @@
                 <i class="fa-solid fa-people-group" style="color: #000000;"></i>
                 Team
               </div>
-              <h3 class="title details">Enterprise</h3> <span class="button">Contatta l'ufficio vendite</span>
+              <h3 class="title details">Enterprise</h3> <span class="button-section">Contatta l'ufficio vendite</span>
               <div class="details">Contatta l'ufficio vendite per i prezzi</div>
               <div class="details">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            </div card section>
+          </div col12>
+        </div row>
+      </div container-middle>
 
-    <section class="section-main">
-      <div class="row">
-      <div class="col-8">
-        <img class="img-col" src="./img/partner.png" alt="">
+<!-- section foto paragrafo  -->
+      <div class="container-middle">
+        <div class="row flex-direction">
+          <div class="col-4 gap padding-top">
+            <h3>Entra in contatto con un partner Dropbox</h3>
+            <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni
+              le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi
+              aziendali, tra cui implementazione,integrazione, gestione e supporto continui.
+            </p>
+            <a class="button-white" href="#">Trova un partner</a>
+          </div col 4>
+          <div class="col-8 section-img">
+            <img class="img-col" src="./img/partner.png" alt="">
+          </div col 8>
+        </div row flex-direction>
+      </div container-middle>
+      <div class="container-middle">
+        <h2>Esegui più operazioni con Dropbox Buisness</h2>
       </div>
-      <div class="col-4"></div>
-    </div>
-
     </section>
   </main>
   <footer>
