@@ -88,6 +88,16 @@ body{
   font-size: 50px; 
 } 
 
+/* color icone  */
+.fa-check{
+  color:#0061FF ;
+}
+
+.fa-folder, .fa-user, .fa-building, .fa-people-group, .fa-arrow-down{
+color: #000000;;
+}
+
+
 .img-col{
   width: 100%;
 }
