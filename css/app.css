@@ -9,6 +9,16 @@ body{
   color: black;
 }
 
+:root{
+  --light-green: #A2D39B;
+  --brodaux: #61082B;
+  --red: #FF1C1C;
+  --dark-red: #D5001F;
+  --blue: #0061FF;
+  --dark-blue: #0D2481;
+  --light-blue: #B4D0E7;
+  --yellow: #FFD830;
+}
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -42,7 +52,7 @@ body{
 }
 
 .button{
-  background-color: #0061FF;
+  background-color: var(--blue);
   display: inline-block;
   color: white;
   padding: 5px;
@@ -53,7 +63,7 @@ body{
 
 /* hero */
 .hero{
-  background-color: #B4D0E7;
+  background-color: var(--light-blue);
 }
 
 .container-hero{
@@ -74,7 +84,7 @@ body{
 }
 
 .button-big{
-  background-color: #0061FF;
+  background-color: var(--blue);
   color: white;
   padding: 10px;
   width: 210px;
@@ -90,7 +100,7 @@ body{
 
 /* color icone  */
 .fa-check{
-  color:#0061FF ;
+  color:var(--blue) ;
 }
 
 .fa-folder, .fa-user, .fa-building, .fa-people-group, .fa-arrow-down, .fa-share-nodes{
@@ -227,7 +237,7 @@ ul{
 
 .button-section{ 
   padding-left: 200px;
-  background-color: #0061FF;
+  background-color: var(--blue);
   color: white;
   padding: 10px;
   font-size: 14px;
@@ -276,3 +286,8 @@ ul{
   flex-basis: calc((100% / 12) * 2);
   min-height: 200px;
 }
+
+.bg-light-green{
+  background-color: var(--light-green);
+}
+
