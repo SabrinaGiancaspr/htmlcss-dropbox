@@ -295,7 +295,7 @@ ul{
 
 /* section con foto aziende */
 .debug{
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   min-height: 300px;
 }
 
@@ -332,6 +332,10 @@ ul{
   width: 60%;
 }
 
+.img-big-square{
+  width: 70%;
+  
+}
 
 .col-2{
   flex-basis: calc((100% / 12) * 2);
@@ -344,6 +348,15 @@ ul{
   align-items: center;
   justify-content: center;
   aspect-ratio: 1/1;
+}
+.col-4-square{
+  flex-basis: calc((100% / 12)* 4);
+}
+.col-item-big{
+  padding: 10px;
+  aspect-ratio: 1/1;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .bg-light-green{
@@ -405,7 +418,13 @@ ul{
 .question{
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
   justify-content: space-between;
   align-items: center;
   min-height: 200px;
+  padding-bottom: 100px;
+}
+
+.col{
+  flex-basis: calc((100% / 12) * 5);
 }
