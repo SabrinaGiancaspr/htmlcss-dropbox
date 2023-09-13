@@ -429,8 +429,28 @@ ul{
   flex-basis: calc(12 / 5);
 }
 
+.list{
+  color: white;
+}
 .list-footer{
   color: white;
+  padding-top: 20px;
+}
+
+.line-footer{
+  width: 100px;
+  margin-top: 60px;
+}
+
+.lingua{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgba(255, 255, 255, 0.605);
+}
+
+.fa-caret-up{
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 h4{
