@@ -289,7 +289,9 @@ ul{
 /* section con foto aziende */
 .debug{
   border: 1px solid black;
+  min-height: 300px;
 }
+
 .team-content{
   padding-top: 50px;
 }
@@ -297,8 +299,26 @@ ul{
 .link-team{
   padding-top: 50px;
 }
-.square-section{
-  width: 100%;
+
+.logo-col-middle{
+  width: 60%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.logo-col{
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  filter: invert(1);
+}
+
+.img-square{
+  width: 60%;
 }
 
 .col-2{
@@ -343,6 +363,9 @@ ul{
   background-color: var(--yellow);
 }
 
+
+/* section bg-light blue  */
+
 .title-section-light-blue{
   margin-left: 200px;
 }
@@ -350,25 +373,4 @@ ul{
 .button-big{
   width: 200px;
   cursor: pointer;
-}
-
-.logo-col-middle{
-  width: 60%;
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-
-.logo-col{
-  width: 50%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  filter: invert(1);
-}
-
-.name-quote{
-  padding-top: 30px;
 }
