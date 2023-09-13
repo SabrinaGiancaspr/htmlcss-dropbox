@@ -280,7 +280,9 @@ ul{
   flex-direction: row-reverse;
   padding-top: 120px;
 }
-
+.title-dropbox{
+  padding-top: 40px;
+}
 .section-img{
   padding: 20px;
 }
@@ -436,9 +438,7 @@ ul{
   padding-bottom: 100px;
 }
 
-.col{
-  flex-basis: calc(12 / 5);
-}
+
 
 .list{
   color: white;
