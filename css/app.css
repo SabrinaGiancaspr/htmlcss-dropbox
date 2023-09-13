@@ -426,5 +426,17 @@ ul{
 }
 
 .col{
-  flex-basis: calc((100% / 12) * 5);
+  flex-basis: calc(12 / 5);
+}
+
+.list-footer{
+  color: white;
+}
+
+h4{
+  padding-bottom: 10px;
+}
+
+.space-around{
+  justify-content: space-around;
 }
