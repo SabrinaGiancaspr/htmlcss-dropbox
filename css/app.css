@@ -79,7 +79,14 @@ body{
   font-weight: bold;
 }
 
-
+.jumbo-img{
+  width: 100%;
+  margin-bottom: -100px;
+}
+.fa-arrow-down{
+  font-size: 30px;
+  padding-top: 30px;
+}
 .col-4{
   flex-basis: calc((100% / 12)*4);
   padding-left: 20px;
@@ -259,6 +266,7 @@ ul{
   text-decoration: none;
   white-space: nowrap;
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .card-section{
@@ -289,8 +297,9 @@ ul{
 }
 
 .title-link{
-  padding-top: 40px;
+  padding-top: 80px;
   line-height: 60px;
+  padding-bottom: 40px;
 }
 
 /* section con foto aziende */
@@ -349,9 +358,11 @@ ul{
   justify-content: center;
   aspect-ratio: 1/1;
 }
+
 .col-4-square{
   flex-basis: calc((100% / 12)* 4);
 }
+
 .col-item-big{
   padding: 10px;
   aspect-ratio: 1/1;
