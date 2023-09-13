@@ -229,8 +229,13 @@ ul{
   flex-basis: 100%;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 40px;
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
 .padding-top{
   padding-top: 40px;
 }
@@ -252,6 +257,8 @@ ul{
   font-size: 14px;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
+  margin-top: 10px;
 }
 
 .card-section{
@@ -292,6 +299,10 @@ ul{
   min-height: 300px;
 }
 
+.container-large{
+  width: 100%;
+  background-color: red;
+}
 .team-content{
   padding-top: 50px;
 }
@@ -321,10 +332,18 @@ ul{
   width: 60%;
 }
 
+
 .col-2{
   flex-basis: calc((100% / 12) * 2);
   min-height: 200px;
-  position: relative;
+}
+
+.col-item{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
 }
 
 .bg-light-green{
@@ -363,14 +382,30 @@ ul{
   background-color: var(--yellow);
 }
 
+.bg-black{
+  background-color: black;
+}
+
 
 /* section bg-light blue  */
 
 .title-section-light-blue{
-  margin-left: 200px;
+  margin-bottom: 200px;
 }
 
 .button-big{
   width: 200px;
   cursor: pointer;
+}
+
+.line-big{
+  width: 100%;
+}
+
+.question{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 200px;
 }
