@@ -30,7 +30,7 @@
             <a class="nav-items" href="#">Supporto</a>
             <a class="nav-items" href="#">Contatta l'ufficio vendite</a>
             <a class="nav-items" href="#">Accedi</a>
-            <a class="nav-items button" href="#">Inizia</a>
+            <a class="nav-items button-small bg-blue" href="#">Inizia</a>
           </div col>
         </div row-space-between>
       </div nav-container>
@@ -51,7 +51,7 @@
             archiviazione sicuro: è un modo intelligente e 
             integrato per ottimizzare il flusso di lavoro
             esistente.</p>
-            <a class="button-big" href="#">Inizia la tua prova gratuita</a>
+            <a class="button-big bg-blue" href="#">Inizia la tua prova gratuita</a>
             <p>Annulla in qualsiasi momento</p>
             <div class="icon">
               <i class="fa-solid fa-arrow-down"></i>
@@ -65,120 +65,123 @@
     </div hero>
   </header>
 
-<!-- prima card  -->
-    <main class="content-main">
-      <div class="container-middle">
-        <div class="row">
-          <div class="col-12">
-            <div class="title-main">
-              <h2>Trova il piano business che fa per te</h2>
+<main class="content-main">
+  <div class="container-middle">
+    <div class="row">
+      <div class="col-12">
+        <div class="title-main">
+          <h2>Trova il piano business che fa per te</h2>
+        </div>
+          <div class="rate-sel">
+            <div class="rate-item">
+              <input type="radio" name="radio-button"><label for="">Fatturazione mensile</label>
             </div>
-            <div>
-              <input type="radio"><span class="checkbox">Fatturazione mensile</span>
-              <input type="radio"><span>Fatturazione annuale</span>
+            <div class="rate-item">
+              <input type="radio" name="radio-button"><label for="">Fatturazione annuale</label>
             </div>
-          </div col 12>
-        </div row>
-        
-        <div class="row main">
-          <div class="col-4">
-            <div class="card">
-              <div class="category-col">
+          </div rate-sel>
+        </div col 12>
+      </div row>
+
+<!-- prima card -->
+      <div class="row main">
+        <div class="col-4 ">
+          <div class="card ">
+            <div class="card-header" >
+              <div class="category-col ">
                 <i class="fa-solid fa-user"></i>
                 Singolo
               </div>
-                <div class="padding-col line-height-40px">
-                  <h3 class="title-col">Professional</h3>
-                  <div class="price">&euro;12.00</div>
-                  <div class="month">/mese</div>
-                </div>
-                <div class="padding-col line-height-25px">
+              <div class="padding-col">
+                <h3>Professional</h3>
+              <div>&euro;12.00</div>
+              <div class="month-rate">/mese</div>
+                <div class="rate-category">
                   <div><i class="fa-solid fa-user"></i> 1 utente</div>
                   <div><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</div>
-                  <div class="share line-height-40px"><i class="fa-solid fa-share-nodes" style="color: #000000;"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
+                  <div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
                 </div>
-                  <div class="padding-col">
-                    <a class="button-big prova-gratis line-height-40px " href="#">Prova gratis per 30 giorni</a>
-                      <div class="acquista-ora line-height-80px">oppure <a href="#">acquista ora</a></div>
-                      <hr class="line">
-                        <ul>
-                          <h3 class="subtitle-col">Punti Salienti del piano</h3>
-                          <li><i class="fa-solid fa-check"></i>Invia file fino a 100GB con Dropbox Transfert</li>
-                         <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                        </ul>
-                  </div padding-col>
-              </div card>
+            </div cardheader>
+              <div class="card-body padding-col">
+                <a class="button-big bg-blue" href="#">Prova gratis per 30 giorni</a>
+                <div class="link-card">oppure <a href="#">acquista ora</a></div>
+                <hr class="line">
+                <ul>
+                  <li><h3>Punti Salienti del piano</h3> </li>
+                   <li><i class="fa-solid fa-check"></i> <span>Invia file fino a 100GB con Dropbox Transfert</span></li> 
+                   <li><i class="fa-solid fa-check"></i> <span>Cartelle offline su dispositivi mobili</span></li>
+                </ul>
+              </div card-body>
+            </div padding-col >
+          </div card>
         </div row-main>
 
 <!-- seconda card  -->
-        <div class="col-4">
-          <div class="card">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
             <div class="category-col">
               <i class="fa-solid fa-people-group"></i>
               Team
             </div>
-            <div class="padding-col line-height-40px">
-              <h3 class="title-col">Advanced</h3>
-              <div class="price">&euro;18.00</div>
+              <div class="padding-col">
+              <h3>Advanced</h3>
+              <div>&euro;18.00</div>
               <div class="month">/utente/mese</div>
-            </div>
-            <div class="padding-col line-height-25px">
-              <div><i class="fa-solid fa-people-group"></i> 3 o più utenti</div>
-              <div><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</div>
-              <div class="share"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
-            </div>
-            <div class="padding-col">
-              <a class="button-big prova-gratis line-height-40px " href="#">Prova gratis per 30 giorni</a>
-              <div class="acquista-ora line-height-80px">oppure <a href="#">acquista ora</a></div>
-              <hr class="line">
-              <ul>
-                <li><h3 class="subtitle-col">Punti Salienti del piano</h3></li>
-                <li><i class="fa-solid fa-check"></i>Nessun limite di spazio per i file</li>
-                <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-                <li><i class="fa-solid fa-check"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
-                <li><i class="fa-solid fa-check"></i>Possibilità di inserire nuovi membri del team</li>
-                <li><i class="fa-solid fa-check"></i>Gestione dei permessi in base ai ruoli</li>
-              </ul>
-            </div padding-col>
-
-          </div card>
-        </div col-4>
+              <div class="rate-category">
+                <div><i class="fa-solid fa-user"></i> 1 utente</div>
+                <div><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</div>
+                <div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
+              </div>
+          </div card-header>
+          <div class="card-body padding-col">
+            <a class="button-big bg-blue" href="#">Prova gratis per 30 giorni</a>
+            <div class="link-card">oppure <a href="#">acquista ora</a></div>
+            <hr class="line">
+            <ul>
+              <li><h3>Punti Salienti del piano</h3></li>
+              <li><i class="fa-solid fa-check"></i> <span>Invia file fino a 100GB con Dropbox Transfert</span> </li>
+              <li><i class="fa-solid fa-check"></i> <span>Cartelle offline su dispositivi mobili</span></li>
+            </ul>
+           </div padding-col>
+          </div card-body>
+        </div card>
+      </div col-4>
+          
 <!-- terza card  -->
-        <div class="col-4">
-          <div class="card">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-header">
             <div class="category-col">
-            <i class="fa-solid fa-building"></i>
-            Azienda
+              <i class="fa-solid fa-people-group"></i>
+              Team
             </div>
-            <div class="padding-col line-height-40px">
-              <h3 class="title-col">Enterprise</h3>
-              <div class="price">Contattaci</div>
-              <div class="month">-</div>
+          <div class="padding-col">
+            <h3>Advanced</h3>
+            <div>&euro;18.00</div>
+            <div class="month">/utente/mese</div>
+            <div class="rate-category">
+              <div><i class="fa-solid fa-user"></i> 1 utente</div>
+              <div><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</div>
+              <div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e convivisione file semplice e sicura</div>
             </div>
-            <div class="padding-col line-height-25px">
-              <div><i class="fa-solid fa-user"></i> 10 o più utenti</div>
-              <div><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</div>
-              <div class="share"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div>
-            </div>
-            <div class="padding-col">
-              <a class="button-big prova-gratis line-height-40px " href="#">Prova gratis per 30 giorni</a>
-              <div class="acquista-ora line-height-80px">oppure <a href="#">acquista ora</a></div>
-              <hr class="line">
-              <ul>
-                <li><h3 class="subtitle-col">Punti Salienti del piano</h3></li>
-                <li><i class="fa-solid fa-check"></i>Invia file fino a 100GB con Dropbox Transfert</li>
-                <li><i class="fa-solid fa-check"></i>Cartelle offline su dispositivi mobili</li>
-              </ul>
-            </div>
-          </div card>
-        </div col-4>
-      </div container-middle>
-
+          </div card-header>
+        <div class="card-body padding-col">
+          <a class="button-big bg-blue" href="#">Prova gratis per 30 giorni</a>
+          <div class="link-card">oppure <a href="#">acquista ora</a></div>
+          <hr class="line">
+          <ul>
+            <li><h3>Punti Salienti del piano</h3></li>
+            <li><i class="fa-solid fa-check"></i> <span>Invia file fino a 100GB con Dropbox Transfert</span></li>
+            <li><i class="fa-solid fa-check"></i> <span>Cartelle offline su dispositivi mobili</span></li>
+          </ul>
+          </div padding-col>
+        </div card-body>
+        </div card>
+      </div col-4>
+  </div container-middle>
         
-
-  
-        
-<!-- col team  -->
+<!-- quarta card orizzontale  -->
     <section class="section-main">
       <div class="container-middle">
         <div class="row">
@@ -216,7 +219,8 @@
         </div row flex-direction>
       </div container-middle>
     </section>
-<!-- terza section  -->
+
+<!-- section con 6 img e paragrafi -->
     <section>
       <div class="container-middle">
         <h2>Esegui più operazioni con Dropbox Buisness</h2>
@@ -268,42 +272,26 @@
         </div row>
       </div container-middle>
     </section>
-    <section>
-      <div class="container-middle">
-        <div class="title-link">
-          <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
-          <a href="#">Scopri di più sui nostri clienti</a>
-        </div>
-      </div container-middle>
-    </section>
-  </div container-big>
-<!-- section square  -->
-    <section class="square-section">
-        <div class="row">
-          <div class="col-2 bg-light-green">
-           <img class="img-col logo-col" src="./img/designit.svg" alt="">
-          </div>
-          <div class="col-2 bg-bordaux"></div>
-          <div class="col-4 bg-gray"></div>
-          <div class="col-2 bg-dark-red"></div>
-          <div class="col-2 bg-light-blue"></div>
-          <div class="col-2 bg-blue"></div>
-          <div class="col-2 bg-red"></div>
-          <div class="col-4 bg-gray"></div>
-          <div class="col-2 bg-dark-blue"></div>
-          <div class="col-2 bg-yellow"></div>
-        </div row>
-       <div class="bg-light-blue">
-          <div class="container-middle">
-            <div class="row space-between">
-              <h2 class="title-section-light-blue">Porta Dropbox Business nella tua azienda</h2>
-            <span class="button-white button-big">Inizia la tua prova gratuita</span>
-            </div>
-            
-          </div container-middle>
-       </div bg-light-blue>
-    </section>
 
+<!-- section team loghi aziende  -->
+ <section class="team-content">
+  <div class="container-middle">
+    <h2>Più di 500.000 team utilizzano Dropbox Business</h2>
+    <div class="link-team"><a href="#">Scopri di più sui nostri clienti</a></div>
+  </div container-middle>
+  <div class="container-big">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-4"></div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+
+    </div>
+  </div container-big>
+ </section>
+
+          
   </main>
   <footer>
 
