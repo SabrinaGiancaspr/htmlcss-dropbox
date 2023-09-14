@@ -341,6 +341,7 @@ ul{
 
 .img-square{
   width: 60%;
+  filter: invert(100%);
 }
 
 .img-big-square{
